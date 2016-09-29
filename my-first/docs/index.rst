@@ -15,7 +15,7 @@ Contents:
    :maxdepth: 2
 
    all-about-me
-
+   all-you
 Indices and tables
 ==================
 
