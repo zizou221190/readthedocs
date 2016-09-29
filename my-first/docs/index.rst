@@ -7,7 +7,7 @@ Welcome to abdelaziz first doc's documentation!
 ===============================================
 
 Introduction:
-encore un petit teste pour readthedocs
+encore un petit teste pour readthedoc !!!!!!!!!!!!!!s
 
 Contents:
 
@@ -22,4 +22,6 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+* :ref:`aaaaaindex`
+
 
