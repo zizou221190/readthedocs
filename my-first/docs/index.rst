@@ -20,6 +20,7 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
+	about this command
 * :ref:`modindex`
 * :ref:`search`
 * :ref:`aaaaaindex`
