@@ -3,6 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
+
 Welcome to abdelaziz first doc's documentation!
 ===============================================
 
@@ -16,6 +18,16 @@ Contents:
 
    all-about-me
    all-you
+   :titlesonly:
+   :hidden:
+
+   installation
+   user-guide
+   developer-guide
+   boards
+   examples
+   library-reference
+
 Indices and tables
 ==================
 
