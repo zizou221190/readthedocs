@@ -1,23 +1,18 @@
-.. abdelaziz first doc documentation master file, created by
-   sphinx-quickstart on Thu Sep 29 09:56:07 2016.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+|buildstatus|_
+|codecov|_
 
+Welcome to Pumbaa's documentation!
+==================================
 
+`Pumbaa` is `Python`_ on top of `Simba`_.
 
-Welcome to abdelaziz first doc's documentation!
-===============================================
+The implementation is a port of `MicroPython`_, designed for embedded
+devices with limited amount of RAM and code memory.
 
-Introduction:
-encore un petit teste pour readthedoc !!!!!!!lalala!!!!!!!s
-
-Contents:
+Project homepage: https://github.com/eerimoq/pumbaa
 
 .. toctree::
-   :maxdepth: 2
-
-   all-about-me
-   all-you
+   :maxdepth: 1
    :titlesonly:
    :hidden:
 
@@ -28,13 +23,95 @@ Contents:
    examples
    library-reference
 
+Features
+--------
+
+* `MicroPython 3`_ language.
+
+* :doc:`Python Standard Library<library-reference/standard>` modules.
+
+* :doc:`library-reference/micropython` modules.
+
+* A thin :doc:`Python wrapper<library-reference/pumbaa/simba>` for
+  `Simba modules`_.
+
+See the :doc:`library-reference` for a full list of features.
+
 Indices and tables
 ==================
 
 * :ref:`genindex`
-	about this command
+* :ref:`modindex`|buildstatus|_
+|codecov|_
+
+Welcome to Pumbaa's documentation!
+==================================
+
+`Pumbaa` is `Python`_ on top of `Simba`_.
+
+The implementation is a port of `MicroPython`_, designed for embedded
+devices with limited amount of RAM and code memory.
+
+Project homepage: https://github.com/eerimoq/pumbaa
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :hidden:
+
+   installation
+   user-guide
+   developer-guide
+   boards
+   examples
+   library-reference
+
+Features
+--------
+
+* `MicroPython 3`_ language.
+
+* :doc:`Python Standard Library<library-reference/standard>` modules.
+
+* :doc:`library-reference/micropython` modules.
+
+* A thin :doc:`Python wrapper<library-reference/pumbaa/simba>` for
+  `Simba modules`_.
+
+See the :doc:`library-reference` for a full list of features.
+
+Indices and tables
+==================
+
+* :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-* :ref:`aaaaaindex`
 
-  all-you
+.. |buildstatus| image:: https://travis-ci.org/eerimoq/pumbaa.svg
+.. _buildstatus: https://travis-ci.org/eerimoq/pumbaa
+
+.. |codecov| image:: https://codecov.io/gh/eerimoq/pumbaa/branch/master/graph/badge.svg
+.. _codecov: https://codecov.io/gh/eerimoq/pumbaa
+
+.. _Python: https://www.python.org/
+.. _Simba: http://simba-os.readthedocs.io/en/latest/
+.. _MicroPython: http://www.micropython.org/
+.. _MicroPython 3: http://docs.micropython.org/en/latest/pyboard/reference/index.html
+
+.. _Simba modules: http://simba-os.readthedocs.io/en/latest/library-reference.html
+
+* :ref:`search`
+
+.. |buildstatus| image:: https://travis-ci.org/eerimoq/pumbaa.svg
+.. _buildstatus: https://travis-ci.org/eerimoq/pumbaa
+
+.. |codecov| image:: https://codecov.io/gh/eerimoq/pumbaa/branch/master/graph/badge.svg
+.. _codecov: https://codecov.io/gh/eerimoq/pumbaa
+
+.. _Python: https://www.python.org/
+.. _Simba: http://simba-os.readthedocs.io/en/latest/
+.. _MicroPython: http://www.micropython.org/
+.. _MicroPython 3: http://docs.micropython.org/en/latest/pyboard/reference/index.html
+
+.. _Simba modules: http://simba-os.readthedocs.io/en/latest/library-reference.html
+.. abdelaziz first doc documentation master file, created by
